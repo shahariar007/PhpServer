@@ -26,13 +26,21 @@ class Connection
 
     public function Registration($user_name, $user_email, $user_phone, $user_pass, $user_type)
     {
-        $checkmail=$this->db_helper->query("select user_validation_status from tbl_user_registration where user_email='$user_email'")->fetch_assoc()['user_validation_status'];
-        print_r($checkmail);
-        if (strcasecmp($checkmail,"zero")==0) {
+        $tbl_user_reg_check = $this->db_helper->query("select user_validation_status from tbl_user_registration where user_email='$user_email'")->fetch_assoc()['user_validation_status'];
+        $tbl_main_check = $this->db_helper->query("select id from tbl_user_info where user_email= '$user_email' ")->fetch_assoc()['id'];
 
-            return "resend code";
+        if (($tbl_main_check) != null || strcasecmp($tbl_user_reg_check, "zero") ==0) {
+            if (($tbl_main_check)!= null) {
+                echo "already registered  this email address";
+                return "already registered  this email address";
 
-        } else{
+            } else {
+                echo "email address not varified";
+                return "resend code";
+            }
+
+
+        } else {
 
             if (strcasecmp($user_type, "manual") == 0) {
                 $generated_code = rand(50, 1000);
