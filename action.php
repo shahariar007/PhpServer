@@ -16,7 +16,10 @@ if (strcasecmp("Registration", $func_name) == 0) {
     $ur_em = $_REQUEST['email'];
     $ur_cod = $_REQUEST['user_code'];
     echo call_user_func([$c, $func_name], $ur_em, $ur_cod);
-
+} elseif (strcasecmp("Login", $func_name) == 0) {
+    $ur_email = $_REQUEST['email'];
+    $ur_pass = $_REQUEST['password'];
+    echo call_user_func([$c, $func_name], $ur_email, $ur_pass);
 }
 
 

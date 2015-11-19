@@ -32,11 +32,11 @@ class Connection
         if (($tbl_main_check) != null || $tbl_user_reg_check > 0) {
             if (($tbl_main_check) != null) {
                 //echo "already registered  this email address";
-                return "already registered  this email address";
+                return "already registered user";
 
             } else {
                 //echo "email address not varified";
-                return "email address not varified";
+                return "request for verify";
             }
 
 
@@ -57,20 +57,24 @@ class Connection
                 if ($result) {
                     $n = new Connection();
                     $n->MailTransfer($user_email, $user_name, $generated_code);
-                    return "complete";
+                    return "request for verity";
                 } else echo $this->db_helper->error;
             } elseif (strcasecmp($user_type, "facebook") == 0 || strcasecmp($user_type, "google_plus") == 0 || strcasecmp($user_type, "twitter") == 0) {
-                echo $user_name;
+
                 $sql_insert = "INSERT INTO {$this->main_table} (user_name,user_email,user_phone,user_pass,user_type) VALUES ('$user_name','$user_email','$user_phone','$user_pass','$user_type');";
                 $result = $this->db_helper->query($sql_insert);
                 if ($result) {
+                    $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$user_email'";
+                    $socialMedia = $this->db_helper->query($sql)->fetch_assoc();
+                    //print_r(json_encode($socialMedia));
+                    return json_encode($socialMedia);
 
-                    return "registration complete via" . $user_type;
                 } else return "fail registration complete via" . $user_type;
 
             }
-
+            return $this->db_helper->error;
         }
+
     }
 
     public function Verification($mailaddress, $mailcode)
@@ -105,15 +109,14 @@ class Connection
     }
 
 
-    public function Getdata()
+    public function Logon($email, $user_pass)
     {
-        $sql = "SELECT * FROM {$this->main_table} ; ";
-        $result = $this->db_helper->query($sql);
-        $data = array();
-        while ($rds = $result->fetch_assoc()) {
-            array_push($data, $rds);
-        }
-        return json_encode($data);
+        $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$email' AND user_pass='$user_pass' ; ";
+        $login_result = $this->db_helper->query($sql)->fetch_assoc();
+        if ($login_result) {
+            return json_encode($login_result);
+        }else $this->db_helper->error;
+
     }
 
 
