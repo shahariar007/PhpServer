@@ -24,10 +24,11 @@ class Connection
         }
     }
 
-    public function Registration($user_name, $user_email, $user_phone, $user_pass, $user_type)
+    public function Registration($user_name, $user_email, $user_phone, $user_password, $user_type)
     {
+        $user_pass=base64_encode($user_password);
         $tbl_user_reg_check = $this->db_helper->query("select *from tbl_user_registration where user_email='$user_email' and user_validation_status=0")->fetch_assoc()['id'];
-        $tbl_main_check = $this->db_helper->query("select id from tbl_user_info where user_email= '$user_email' ")->fetch_assoc()['id'];
+        $tbl_main_check = $this->db_helper->query("select id from tbl_user_info where user_email= '$user_email'")->fetch_assoc()['id'];
 
         if (($tbl_main_check) != null || $tbl_user_reg_check > 0) {
             if (($tbl_main_check) != null) {
@@ -36,7 +37,7 @@ class Connection
 
             } else {
                 //echo "email address not varified";
-                return "request for verify";
+                return "user not verified";
             }
 
 
@@ -57,7 +58,7 @@ class Connection
                 if ($result) {
                     $n = new Connection();
                     $n->MailTransfer($user_email, $user_name, $generated_code);
-                    return "request for verity";
+                    return "request for verify";
                 } else echo $this->db_helper->error;
             } elseif (strcasecmp($user_type, "facebook") == 0 || strcasecmp($user_type, "google_plus") == 0 || strcasecmp($user_type, "twitter") == 0) {
 
@@ -109,8 +110,9 @@ class Connection
     }
 
 
-    public function Logon($email, $user_pass)
+    public function Logon($email, $user_password)
     {
+        $user_pass=base64_encode($user_password);
         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$email' AND user_pass='$user_pass' ; ";
         $login_result = $this->db_helper->query($sql)->fetch_assoc();
         if ($login_result) {
