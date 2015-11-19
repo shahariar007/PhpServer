@@ -26,7 +26,7 @@ class Connection
 
     public function Registration($user_name, $user_email, $user_phone, $user_password, $user_type)
     {
-        $user_pass=base64_encode($user_password);
+        $user_pass = base64_encode($user_password);
         $tbl_user_reg_check = $this->db_helper->query("select *from tbl_user_registration where user_email='$user_email' and user_validation_status=0")->fetch_assoc()['id'];
         $tbl_main_check = $this->db_helper->query("select id from tbl_user_info where user_email= '$user_email'")->fetch_assoc()['id'];
 
@@ -97,6 +97,7 @@ class Connection
                 if ($insertresult) {
                     $sql_delete = "DELETE FROM {$this->table_name} WHERE user_email= '$mailaddress'";
                     $deleteresult = $this->db_helper->query($sql_delete);
+                    //$json = array();
                     if ($deleteresult) {
                         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$mailaddress';";
                         $result = $this->db_helper->query($sql)->fetch_assoc();
@@ -110,14 +111,14 @@ class Connection
     }
 
 
-    public function Logon($email, $user_password)
+    public function Login($email, $user_password)
     {
-        $user_pass=base64_encode($user_password);
+        $user_pass = base64_encode($user_password);
         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$email' AND user_pass='$user_pass' ; ";
         $login_result = $this->db_helper->query($sql)->fetch_assoc();
         if ($login_result) {
             return json_encode($login_result);
-        }else $this->db_helper->error;
+        } else return $this->db_helper->error;
 
     }
 
