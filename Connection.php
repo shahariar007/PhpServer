@@ -101,7 +101,9 @@ class Connection
                     if ($deleteresult) {
                         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$mailaddress';";
                         $result = $this->db_helper->query($sql)->fetch_assoc();
-                        return json_encode($result);
+                        $registration_result=array();
+                        $registration_result=['id'=>$result['id'],'user_name'=>$result['user_name'],'user_email'=>$result['user_email'],'user_phone'=>$result['user_phone'],'user_type'=>$result['user_type']];
+                        return json_encode($registration_result);
                     } else return $this->db_helper->error;
 
                 } else  return $this->db_helper->error;

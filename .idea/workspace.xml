@@ -28,34 +28,34 @@
       <file leaf-file-name="Connection.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Connection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5025818">
-              <caret line="123" column="90" selection-start-line="123" selection-start-column="90" selection-end-line="123" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.44406196">
+              <caret line="105" column="63" selection-start-line="105" selection-start-column="63" selection-end-line="105" selection-end-column="63" />
               <folding>
-                <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-                <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-                <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-                <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-                <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-                <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-                <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-                <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-                <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-                <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-                <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-                <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-                <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-                <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-                <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-                <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-                <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-                <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-                <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-                <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-                <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-                <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-                <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-                <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-                <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+                <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+                <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+                <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+                <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+                <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+                <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+                <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+                <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+                <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+                <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+                <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+                <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+                <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+                <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+                <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+                <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+                <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+                <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+                <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+                <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+                <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+                <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+                <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+                <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+                <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -240,7 +240,13 @@
       <option name="project" value="LOCAL" />
       <updated>1447932487141</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="last4">
+      <created>1447935702783</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1447935702783</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -287,7 +293,8 @@
     <MESSAGE value="last 1" />
     <MESSAGE value="last 2" />
     <MESSAGE value="last3" />
-    <option name="LAST_COMMIT_MESSAGE" value="last3" />
+    <MESSAGE value="last4" />
+    <option name="LAST_COMMIT_MESSAGE" value="last4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -299,31 +306,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -349,31 +356,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -399,31 +406,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -449,31 +456,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -499,31 +506,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -549,31 +556,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -591,31 +598,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="55" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="55" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -641,31 +648,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -691,31 +698,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -733,31 +740,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -775,31 +782,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -817,31 +824,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -866,31 +873,31 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -951,34 +958,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Connection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5025818">
-          <caret line="123" column="90" selection-start-line="123" selection-start-column="90" selection-end-line="123" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.44406196">
+          <caret line="105" column="63" selection-start-line="105" selection-start-column="63" selection-end-line="105" selection-end-column="63" />
           <folding>
-            <marker date="1447935390480" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
-            <marker date="1447935390480" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
-            <marker date="1447935390480" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
-            <marker date="1447935390480" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
-            <marker date="1447935390480" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
-            <marker date="1447935390480" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
-            <marker date="1447935390480" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5395" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5414" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5431" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5440" placeholder="SELECT * FRO..." />
-            <marker date="1447935390480" expanded="true" signature="5381:5467" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="820:914" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="820:931" placeholder="select *from..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="990:1036" placeholder="select id fr..tbl_user..." />
+            <marker date="1447936231668" expanded="true" signature="990:1050" placeholder="select id fr..tbl_user_info..." />
+            <marker date="1447936231668" expanded="true" signature="1906:2225" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="2734:2895" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="3022:3086" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3527" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3543" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3562" placeholder="SELECT ${{$t..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3580" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3581" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3593" placeholder="SELECT user_..." />
+            <marker date="1447936231668" expanded="true" signature="3521:3594" placeholder="SELECT code ..." />
+            <marker date="1447936231668" expanded="true" signature="3993:4110" placeholder="SELECT user_..tbl_user_registration..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4361" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4430" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4272:4431" placeholder="INSERT INTO ..." />
+            <marker date="1447936231668" expanded="true" signature="4579:4643" placeholder="DELETE FROM ..." />
+            <marker date="1447936231668" expanded="true" signature="4832:4897" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5670" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5689" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5706" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5715" placeholder="SELECT * FRO..." />
+            <marker date="1447936231668" expanded="true" signature="5656:5742" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
