@@ -97,14 +97,17 @@ class Connection
                 if ($insertresult) {
                     $sql_delete = "DELETE FROM {$this->table_name} WHERE user_email= '$mailaddress'";
                     $deleteresult = $this->db_helper->query($sql_delete);
-                    //$json = array();
+                    $registration_result = array();
                     if ($deleteresult) {
                         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$mailaddress';";
                         $result = $this->db_helper->query($sql)->fetch_assoc();
-                        $registration_result=array();
-                        $registration_result=['id'=>$result['id'],'user_name'=>$result['user_name'],'user_email'=>$result['user_email'],'user_phone'=>$result['user_phone'],'user_type'=>$result['user_type']];
+                        $registration_result['RegistrationResult'] = ['Status' => 'Success', 'data' => ['id' => $result['id'], 'user_name' => $result['user_name'], 'user_email' => $result['user_email'], 'user_phone' => $result['user_phone'], 'user_type' => $result['user_type']]];
                         return json_encode($registration_result);
-                    } else return $this->db_helper->error;
+                    } else
+                    {
+                        $registration_result['RegistrationResult']=['Status'=>'Fail','data'=>$this->db_helper->error];
+                        return json_encode($registration_result);
+                    }
 
                 } else  return $this->db_helper->error;
             } else return $this->db_helper->error;
@@ -118,15 +121,14 @@ class Connection
         $user_pass = base64_encode($user_password);
         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$email' AND user_pass='$user_pass' ; ";
         $login_result = $this->db_helper->query($sql)->fetch_assoc();
-        $send_json=array();
+        $send_json = array();
         if ($login_result!=null) {
-            $send_json['LoginResult'] = ['status'=>"success",'data'=>['id'=>$login_result['id'],'user_name'=>$login_result['user_name'],'user_email'=>$login_result['user_email'],'user_phone'=>$login_result['user_phone'],'user_type'=>$login_result['user_type']]];
+            $send_json['LoginResult'] = ['status' => "success", 'data' => ['id' => $login_result['id'], 'user_name' => $login_result['user_name'], 'user_email' => $login_result['user_email'], 'user_phone' => $login_result['user_phone'], 'user_type' => $login_result['user_type']]];
             return json_encode($send_json);
-        } else{
-            $send_json['LoginResult'] = ['status'=>"Fail",'data'=>$this->db_helper->error];
+        } else {
+            $send_json['LoginResult'] = ['status' => "Fail", 'data' => $this->db_helper->error];
             return json_encode($send_json);
         }
-
 
 
     }
