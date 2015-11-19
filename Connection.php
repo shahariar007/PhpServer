@@ -116,9 +116,16 @@ class Connection
         $user_pass = base64_encode($user_password);
         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$email' AND user_pass='$user_pass' ; ";
         $login_result = $this->db_helper->query($sql)->fetch_assoc();
-        if ($login_result) {
-            return json_encode($login_result);
-        } else return $this->db_helper->error;
+        $send_json=array();
+        if ($login_result!=null) {
+            $send_json['LoginResult'] = ['status'=>"success",'data'=>['id'=>$login_result['id'],'user_name'=>$login_result['user_name'],'user_email'=>$login_result['user_email'],'user_phone'=>$login_result['user_phone'],'user_type'=>$login_result['user_type']]];
+            return json_encode($send_json);
+        } else{
+            $send_json['LoginResult'] = ['status'=>"Fail",'data'=>$this->db_helper->error];
+            return json_encode($send_json);
+        }
+
+
 
     }
 
