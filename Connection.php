@@ -98,7 +98,7 @@ class Connection
                     $sql_delete = "DELETE FROM {$this->table_name} WHERE user_email= '$mailaddress'";
                     $deleteresult = $this->db_helper->query($sql_delete);
                     $registration_result = array();
-                    if ($deleteresult) {
+                    if ($deleteresult!=null) {
                         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$mailaddress';";
                         $result = $this->db_helper->query($sql)->fetch_assoc();
                         $registration_result['RegistrationResult'] = ['Status' => 'Success', 'data' => ['id' => $result['id'], 'user_name' => $result['user_name'], 'user_email' => $result['user_email'], 'user_phone' => $result['user_phone'], 'user_type' => $result['user_type']]];
