@@ -9,7 +9,7 @@ class Connection
     private $table_name = "tbl_user_registration";
     private $user_name = "root";
     private $main_table = "tbl_user_info";
-    private $pass = "";
+    private $pass = "sm#123#321";
     private $db_helper;
 
 
@@ -36,8 +36,14 @@ class Connection
                 return "already registered user";
 
             } else {
-                //echo "email address not varified";
-                return "user not verified";
+                $c = new Connection();
+                $sqlveri = "SELECT user_code from {$this->table_name} where user_email='$user_email'";
+                $reSendCode = $this->db_helper->query($sqlveri)->fetch_assoc()['user_code'];
+                if ($reSendCode != null) {
+                    $c->MailTransfer($user_email, $user_name, $reSendCode);
+                    return "user not verified";
+                } else return "Mail Address not Found";
+
             }
 
 
@@ -80,11 +86,15 @@ class Connection
 
     public function Verification($mailaddress, $mailcode)
     {
+        /*  $sqlveri = "SELECT id from {$this->table_name} where user_email='$mailaddress' AND user_code=$mailcode";
+          $result = $this->db_helper->query($sqlveri);
+          print_r($result);*/
         $sqlveri = "SELECT user_code from {$this->table_name} where user_email='$mailaddress'";
         $result = $this->db_helper->query($sqlveri);
         $mCode = $result->fetch_assoc()['user_code'];
+        $registration_result = array();
 
-        if ($mailcode == $mCode) {
+        if ($mCode == $mailcode) {
             $sql_update = "UPDATE {$this->table_name} SET user_validation_status=1 WHERE user_email= '$mailaddress'";
             $update_result = $this->db_helper->query($sql_update);
             if ($update_result) {
@@ -94,39 +104,49 @@ class Connection
 
                 $insert_queary = "INSERT INTO tbl_user_info (user_name,user_email,user_phone,user_pass,user_type) VALUES ('$getdata[0]','$getdata[1]','$getdata[2]','$getdata[3]','$getdata[4]');";
                 $insertresult = $this->db_helper->query($insert_queary);
-                if ($insertresult) {
+                if ($insertresult != null) {
                     $sql_delete = "DELETE FROM {$this->table_name} WHERE user_email= '$mailaddress'";
                     $deleteresult = $this->db_helper->query($sql_delete);
-                    $registration_result = array();
-                    if ($deleteresult!=null) {
+
+                    if ($deleteresult != null) {
                         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$mailaddress';";
                         $result = $this->db_helper->query($sql)->fetch_assoc();
-                        $registration_result['RegistrationResult'] = ['Status' => 'Success', 'data' => ['id' => $result['id'], 'user_name' => $result['user_name'], 'user_email' => $result['user_email'], 'user_phone' => $result['user_phone'], 'user_type' => $result['user_type']]];
+                        $registration_result['VerificationResult'] = ['Status' => 'Success', 'data' => ['id' => $result['id'], 'user_name' => $result['user_name'], 'user_email' => $result['user_email'], 'user_phone' => $result['user_phone'], 'user_type' => $result['user_type']]];
                         return json_encode($registration_result);
-                    } else
-                    {
-                        $registration_result['RegistrationResult']=['Status'=>'Fail','data'=>$this->db_helper->error];
+                    } else {
+                        $registration_result['VerificationResult'] = ['Status' => 'Fail', 'data' => $this->db_helper->error];
                         return json_encode($registration_result);
                     }
 
                 } else  return $this->db_helper->error;
             } else return $this->db_helper->error;
 
-        } else return $this->db_helper->error;
+        } else {
+            $registration_result['VerificationResult'] = ['Status' => 'Fail', 'data' => 'Verification Code Does Not Match'];
+            return json_encode($registration_result);
+        }
     }
 
 
     public function Login($email, $user_password)
     {
         $user_pass = base64_encode($user_password);
-        $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$email' AND user_pass='$user_pass' ; ";
-        $login_result = $this->db_helper->query($sql)->fetch_assoc();
+        $sql_mailcheck = "SELECT * FROM {$this->main_table} WHERE user_email='$email'";
+        $mailcheck = $this->db_helper->query($sql_mailcheck)->fetch_assoc();
         $send_json = array();
-        if ($login_result!=null) {
-            $send_json['LoginResult'] = ['status' => "success", 'data' => ['id' => $login_result['id'], 'user_name' => $login_result['user_name'], 'user_email' => $login_result['user_email'], 'user_phone' => $login_result['user_phone'], 'user_type' => $login_result['user_type']]];
-            return json_encode($send_json);
+        if ($mailcheck != null) {
+            $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$email' AND user_pass='$user_pass' ; ";
+            $login_result = $this->db_helper->query($sql)->fetch_assoc();
+
+            if ($login_result != null) {
+                $send_json['LoginResult'] = ['status' => "success", 'data' => ['id' => $login_result['id'], 'user_name' => $login_result['user_name'], 'user_email' => $login_result['user_email'], 'user_phone' => $login_result['user_phone'], 'user_type' => $login_result['user_type']]];
+                return json_encode($send_json);
+            } else {
+                $send_json['LoginResult'] = ['status' => "Fail", 'data' => 'password does not match'];
+                return json_encode($send_json);
+            }
         } else {
-            $send_json['LoginResult'] = ['status' => "Fail", 'data' => $this->db_helper->error];
+            $send_json['LoginResult'] = ['status' => "Fail", 'data' => 'You are not Registered user'];
             return json_encode($send_json);
         }
 
@@ -134,7 +154,7 @@ class Connection
     }
 
 
-    public function MailTransfer($mailSendAddress, $MailName, $body)
+    public function MailTransfer($mailSendAddress, $MailName, $code)
     {
         $mail = new PHPmailer();
         $mail->IsSMTP();
@@ -148,7 +168,7 @@ class Connection
         $mail->SetFrom('shuvo11101010@gmail.com', 'Mortuza');
         $mail->Subject = "Confirmation message  from New Main Zone ";
         $mail->AltBody = "Any message.";
-        $mail->MsgHTML($body);
+        $mail->MsgHTML($code);
 
         $address = $mailSendAddress;
         $mail->AddAddress($address, $MailName);
