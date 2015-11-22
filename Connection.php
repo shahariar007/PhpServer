@@ -9,7 +9,7 @@ class Connection
     private $table_name = "tbl_user_registration";
     private $user_name = "root";
     private $main_table = "tbl_user_info";
-    private $pass = "";
+    private $pass = "sm#123#321";
     private $db_helper;
 
 
@@ -39,6 +39,8 @@ class Connection
                     return json_encode($socialMedia);
                 }
                 else return "already registered manual user";
+
+
 
                 //echo "already registered  this email address";
 
