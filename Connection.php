@@ -9,7 +9,7 @@ class Connection
     private $table_name = "tbl_user_registration";
     private $user_name = "root";
     private $main_table = "tbl_user_info";
-    private $pass = "sm#123#321";
+    private $pass = "";
     private $db_helper;
 
 
