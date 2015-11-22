@@ -32,8 +32,16 @@ class Connection
 
         if (($tbl_main_check) != null || $tbl_user_reg_check > 0) {
             if (($tbl_main_check) != null) {
+                if(strcasecmp($user_type,"facebook")==0||strcasecmp($user_type,"google_plus")==0||strcasecmp($user_type,"twitter")==0)
+                {
+                    $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$user_email'";
+                    $socialMedia = $this->db_helper->query($sql)->fetch_assoc();
+                    return json_encode($socialMedia);
+                }
+                else return "already registered manual user";
+
                 //echo "already registered  this email address";
-                return "already registered user";
+
 
             } else {
                 $c = new Connection();
