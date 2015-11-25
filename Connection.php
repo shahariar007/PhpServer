@@ -34,6 +34,8 @@ class Connection
             if (($tbl_main_check) != null) {
                 if(strcasecmp($user_type,"facebook")==0||strcasecmp($user_type,"google_plus")==0||strcasecmp($user_type,"twitter")==0)
                 {
+                    $c=new Connection();
+                    $c-> update_status($user_email);
                     $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$user_email'";
                     $socialMedia = $this->db_helper->query($sql)->fetch_assoc();
                     return json_encode($socialMedia);
@@ -81,6 +83,8 @@ class Connection
                 $sql_insert = "INSERT INTO {$this->main_table} (user_name,user_email,user_phone,user_pass,user_type) VALUES ('$user_name','$user_email','$user_phone','$user_pass','$user_type');";
                 $result = $this->db_helper->query($sql_insert);
                 if ($result) {
+                    $c=new Connection();
+                    $c-> update_status($user_email);
                     $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$user_email'";
                     $socialMedia = $this->db_helper->query($sql)->fetch_assoc();
                     //print_r(json_encode($socialMedia));
@@ -121,6 +125,8 @@ class Connection
                     if ($deleteresult != null) {
                         $sql = "SELECT * FROM {$this->main_table} WHERE user_email='$mailaddress';";
                         $result = $this->db_helper->query($sql)->fetch_assoc();
+                        $c=new Connection();
+                        $c-> update_status($mailaddress);
                         $registration_result['VerificationResult'] = ['Status' => 'Success', 'data' => ['id' => $result['id'], 'user_name' => $result['user_name'], 'user_email' => $result['user_email'], 'user_phone' => $result['user_phone'], 'user_type' => $result['user_type']]];
                         return json_encode($registration_result);
                     } else {
@@ -149,6 +155,8 @@ class Connection
             $login_result = $this->db_helper->query($sql)->fetch_assoc();
 
             if ($login_result != null) {
+                $c=new Connection();
+               $c-> update_status($email);
                 $send_json['LoginResult'] = ['status' => "success", 'data' => ['id' => $login_result['id'], 'user_name' => $login_result['user_name'], 'user_email' => $login_result['user_email'], 'user_phone' => $login_result['user_phone'], 'user_type' => $login_result['user_type']]];
                 return json_encode($send_json);
             } else {
@@ -161,6 +169,20 @@ class Connection
         }
 
 
+    }
+    public function LogOut($email)
+    {
+        $sql_update_maintable = "UPDATE {$this->main_table} SET user_active_status=0 WHERE user_email= '$email'";
+        $logout_result=$this->db_helper->query($sql_update_maintable);
+        if($logout_result!=null)
+        {
+            return "logout successfully";
+        }
+    }
+    public function update_status($email)
+    {
+        $sql_update_maintable = "UPDATE {$this->main_table} SET user_active_status=1 WHERE user_email= '$email'";
+        $this->db_helper->query($sql_update_maintable);
     }
 
 

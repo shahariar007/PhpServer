@@ -20,8 +20,10 @@ if (strcasecmp("Registration", $func_name) == 0) {
     $ur_email = $_REQUEST['email'];
     $ur_pass = $_REQUEST['password'];
     echo call_user_func([$c, $func_name], $ur_email, $ur_pass);
+}elseif (strcasecmp("LogOut", $func_name) == 0) {
+    $ur_email = $_REQUEST['email'];
+    echo call_user_func([$c, $func_name], $ur_email);
 }
-
 
 
 
